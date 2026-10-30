@@ -1,0 +1,9 @@
+path: ./datasets/kacak_pano
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: normal_baglanti
+  1: kacak_jumper          # Hedefimiz: Kaçak kablo / Jumper
+  2: mudahale_anomalisi    # Hedefimiz: Anormal müdahale
